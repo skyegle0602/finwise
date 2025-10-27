@@ -77,6 +77,8 @@
 @theme inline {
   --font-sans: "Inter", system-ui, -apple-system, sans-serif;
   --font-mono: "JetBrains Mono", "Courier New", monospace;
+  --font-poppins: "Poppins", system-ui, sans-serif;
+  --font-roboto: "Roboto", system-ui, sans-serif;
 
   /* Primary Brand Color - Professional Blue */
   --color-primary: #2563eb;
@@ -137,4 +139,29 @@
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
+}
+
+@layer utilities {
+  .font-poppins {
+    font-family: "Poppins", system-ui, sans-serif;
+  }
+  
+  .font-roboto {
+    font-family: "Roboto", system-ui, sans-serif;
+  }
+  
+  .font-inter {
+    font-family: "Inter", system-ui, sans-serif;
+  }
+  
+  .text-gradient {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
 }

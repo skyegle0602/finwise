@@ -14,25 +14,25 @@ export default function HomePage() {
             </div>
             <span className="text-xl font-semibold text-foreground">FinWise</span>
           </div>
-          <nav className="hidden md:flex items-center gap-6">
-            <Link href="#features" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <nav className="hidden md:flex items-center gap-x-16">
+            <Link href="#features" className="text-xl text-black-400 transition-colors">
               Features
             </Link>
-            <Link href="#pricing" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="#pricing" className="text-xl text-black-400 transition-colors">
               Pricing
             </Link>
-            <Link href="#about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="#about" className="text-xl text-black-40 transition-colors">
               About
             </Link>
           </nav>
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-8">
             <Link href="/login">
-              <Button variant="ghost" size="sm">
+              <Button size="lg" className="bg-green-600 text-white text-xl">
                 Sign In
               </Button>
             </Link>
             <Link href="/signup">
-              <Button size="sm">Get Started</Button>
+              <Button size="lg" className="bg-blue-500 text-white text-xl">Get Started</Button>
             </Link>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function HomePage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <Link href="/signup">
-              <Button size="lg" className="gap-2">
+              <Button size="lg" className=" text-white text-sm gap-2">
                 Start Free Trial <ArrowRight className="w-4 h-4" />
               </Button>
             </Link>
@@ -312,7 +312,7 @@ export default function HomePage() {
             Join thousands of freelancers and small businesses managing their finances smarter with FinWise
           </p>
           <Link href="/signup">
-            <Button size="lg" variant="secondary" className="gap-2">
+            <Button size="lg" variant="secondary" className="text-white text-sm gap-2">
               Start Your Free Trial <ArrowRight className="w-4 h-4" />
             </Button>
           </Link>
@@ -327,16 +327,16 @@ export default function HomePage() {
               <div className="w-6 h-6 bg-primary rounded-lg flex items-center justify-center">
                 <Sparkles className="w-4 h-4 text-primary-foreground" />
               </div>
-              <span className="text-sm text-muted-foreground">© 2025 FinWise. All rights reserved.</span>
+              <span className="text-sm text-muted-foreground">&copy; 2025 FinWise. All rights reserved.</span>
             </div>
             <div className="flex items-center gap-6">
-              <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              <Link href="#" className="text-xl text-muted-foreground hover:text-foreground transition-colors">
                 Privacy
               </Link>
-              <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              <Link href="#" className="text-xl text-muted-foreground hover:text-foreground transition-colors">
                 Terms
               </Link>
-              <Link href="#" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+              <Link href="#" className="text-xl text-muted-foreground hover:text-foreground transition-colors">
                 Contact
               </Link>
             </div>

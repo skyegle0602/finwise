@@ -144,7 +144,7 @@ export default function AdvicePage() {
       </div>
 
       {/* Financial Health Score */}
-      <Card className="mb-8 bg-gradient-to-br from-primary/5 to-accent/5 border-primary/20">
+      <Card className="mb-8 bg-linear-to-br from-primary/5 to-accent/5 border-primary/20">
         <CardHeader>
           <CardTitle className="flex items-center gap-2">
             <Sparkles className="w-6 h-6 text-primary" />
@@ -154,7 +154,7 @@ export default function AdvicePage() {
         </CardHeader>
         <CardContent>
           <div className="flex items-center gap-8">
-            <div className="flex-shrink-0">
+            <div className="shrink-0">
               <div className="relative w-32 h-32">
                 <svg className="w-full h-full transform -rotate-90">
                   <circle
@@ -227,7 +227,7 @@ export default function AdvicePage() {
               <CardContent className="pt-6">
                 <div className="flex gap-4">
                   <div
-                    className={`w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0 ${getCategoryColor(item.category)}`}
+                    className={`w-12 h-12 rounded-lg flex items-center justify-center shrink-0 ${getCategoryColor(item.category)}`}
                   >
                     {getCategoryIcon(item.category)}
                   </div>
@@ -265,7 +265,7 @@ export default function AdvicePage() {
                 <CardContent className="pt-6">
                   <div className="flex gap-4">
                     <div
-                      className={`w-12 h-12 rounded-lg flex items-center justify-center flex-shrink-0 ${getCategoryColor(item.category)}`}
+                      className={`w-12 h-12 rounded-lg flex items-center justify-center shrink-0 ${getCategoryColor(item.category)}`}
                     >
                       {getCategoryIcon(item.category)}
                     </div>

@@ -4,10 +4,10 @@ import Link from "next/link"
 import { usePathname } from "next/navigation"
 import { cn } from "@/lib/utils"
 import { Button } from "@/components/ui/button"
-import { Sparkles, LayoutDashboard, Wallet, Target, Bell, Lightbulb, CreditCard, Settings, LogOut } from "lucide-react"
+import { Sparkles, LayoutDashboard, Wallet, Target, Bell, Lightbulb, CreditCard, Settings, LogOut } from "lucide-react" 
 
 const navItems = [
-  { href: "/dashboard", label: "Overview", icon: LayoutDashboard },
+  { href: "/dashboard", label: "Dashboard", icon: LayoutDashboard },
   { href: "/dashboard/budget", label: "Budget", icon: Wallet },
   { href: "/dashboard/goals", label: "Goals", icon: Target },
   { href: "/dashboard/alerts", label: "Alerts", icon: Bell },
@@ -19,6 +19,8 @@ export function DashboardNav() {
   const pathname = usePathname()
 
   return (
+
+
     <div className="flex flex-col h-full">
       <div className="p-6 border-b border-border">
         <Link href="/" className="flex items-center gap-2">
@@ -29,7 +31,7 @@ export function DashboardNav() {
         </Link>
       </div>
 
-      <nav className="flex-1 p-4 space-y-1">
+      <nav className="flex flex-col flex-1 p-8 space-y-8">
         {navItems.map((item) => {
           const Icon = item.icon
           const isActive = pathname === item.href
@@ -37,7 +39,7 @@ export function DashboardNav() {
             <Link key={item.href} href={item.href}>
               <Button
                 variant={isActive ? "secondary" : "ghost"}
-                className={cn("w-full justify-start gap-3", isActive && "bg-secondary")}
+                className={cn("w-full justify-start gap-4 text-xl font-poppins", isActive && "bg-secondary")}
               >
                 <Icon className="w-4 h-4" />
                 {item.label}

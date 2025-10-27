@@ -154,7 +154,7 @@ export default function DashboardPage() {
               <CardContent>
                 <div className="space-y-4">
                   <div className="flex gap-3 p-3 bg-destructive/10 border border-destructive/20 rounded-lg">
-                    <div className="w-2 h-2 bg-destructive rounded-full mt-1.5 flex-shrink-0" />
+                    <div className="w-2 h-2 bg-destructive rounded-full mt-1.5 shrink-0" />
                     <div className="flex-1 min-w-0">
                       <p className="text-sm font-medium text-foreground">Budget Alert</p>
                       <p className="text-xs text-muted-foreground mt-1 leading-relaxed">
@@ -164,7 +164,7 @@ export default function DashboardPage() {
                   </div>
 
                   <div className="flex gap-3 p-3 bg-accent/10 border border-accent/20 rounded-lg">
-                    <div className="w-2 h-2 bg-accent rounded-full mt-1.5 flex-shrink-0" />
+                    <div className="w-2 h-2 bg-accent rounded-full mt-1.5 shink-0" />
                     <div className="flex-1 min-w-0">
                       <p className="text-sm font-medium text-foreground">Goal Progress</p>
                       <p className="text-xs text-muted-foreground mt-1 leading-relaxed">
@@ -174,7 +174,7 @@ export default function DashboardPage() {
                   </div>
 
                   <div className="flex gap-3 p-3 bg-muted border border-border rounded-lg">
-                    <div className="w-2 h-2 bg-muted-foreground rounded-full mt-1.5 flex-shrink-0" />
+                    <div className="w-2 h-2 bg-muted-foreground rounded-full mt-1.5 shink-0" />
                     <div className="flex-1 min-w-0">
                       <p className="text-sm font-medium text-foreground">Tip</p>
                       <p className="text-xs text-muted-foreground mt-1 leading-relaxed">
