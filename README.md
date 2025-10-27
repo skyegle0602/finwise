@@ -3,7 +3,7 @@
 *Automatically synced with your [first.app](https://finwisemvp.app) deployments*
 
 [![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/code-titans/fin-wise-mvp)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://finwisemvp.app/chat/projects/Q8gfJunxD7R)
+[![Built with v0](https://img.shields.io/badge/Built%20with-finwisemvp.app-black?style=for-the-badge)](https://finwisemvp.app/chat/projects/Q8gfJunxD7R)
 
 ## Overview
 
